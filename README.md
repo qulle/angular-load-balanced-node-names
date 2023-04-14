@@ -79,6 +79,15 @@ export interface RequestWrapper<T> {
     result: boolean;
     errorMessage: string;
 }
+
+export interface User {
+    username: string;
+    firstName: string;
+    surname: string;
+    age: number;
+    dateOfBirth: string;
+    registratedDate: string;
+}
 ```
 
 ## Author

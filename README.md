@@ -75,7 +75,7 @@ The example above uses the following data models.
 export interface RequestWrapper<T> {
     serverName?: string;
     url?: string;
-    message: T;
+    body: T;
     result: boolean;
     errorMessage: string;
 }
